@@ -1,0 +1,176 @@
+
+.links a:hover {
+    color: rgb(255, 136, 0);
+    background-color: rgb(91, 47, 30);
+    border-radius: 10px;
+}
+
+.links {
+    display: inline;
+    float: center;
+    justify-content: center;
+    text-align: center;
+    margin: 3px;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 3px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(248, 176, 93);
+}
+
+#box {
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+ /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgEQiCGhkL9pvAaBOiOOVGCDOya6MeJ88slv5X5P7q9nPLji01DqbKKJjQPimfb30_v8&usqp=CAU); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+
+   
+}
+#box:hover{
+    background-color: black;
+}
+
+#box #n1 {
+    border-radius: 10px;
+    /* display: flex; */
+    color: rgb(102, 70, 11);
+    /* background-color: rgb(255, 217, 146); */
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-weight: lighter;
+}
+
+#n1 p {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.n4 {
+    color: rgb(255, 0, 0);
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    background-color: rgb(58, 192, 207);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+    
+}
+
+.n3:hover {
+    background-color: rgb(255, 185, 159);
+    color: black;
+    border-radius: 20px;
+    transition: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.n3 {
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 5px;
+    /* margin-left: 150px; */
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    font-weight: lighter;
+}
+
+.n5 {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 12px;
+    background-color: rgb(7, 7, 7);
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-bottom: 50px; */
+    font-weight: lighter;
+}
+
+.nihal {
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXgEQiCGhkL9pvAaBOiOOVGCDOya6MeJ88slv5X5P7q9nPLji01DqbKKJjQPimfb30_v8&usqp=CAU);  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width:650px) {
+    .navbar {
+        width: 600px;
+        background-color: rgb(98, 0, 255);
+        color: black;
+    }
+
+    .btn label {
+        display: inline-block;
+        width: 60px;
+        height: 45px;
+        position: relative;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+
+}
+
+@keyframes nihal {
+    from {
+        background-color: rgb(255, 136, 0);
+        transform: translate(-1000px);
+
+    }
+
+    to {
+        background-color: rgb(0, 0, 0);
+        transform: translate(0px);
+
+    }
+}
+table{
+    color:rgb(255, 136, 0);
+    background-color: black;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:300px;
+    animation-name: nihal;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
